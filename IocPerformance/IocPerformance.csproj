@@ -286,9 +286,6 @@
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="Zenject">
-      <HintPath>..\..\Zenject\AssemblyBuild\Bin\Not Unity Release\Zenject.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapters\AutofacContainerAdapter.cs" />
@@ -465,6 +462,12 @@
     <None Include="packages.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Zenject\UnityProject\Assets\Zenject\Main\Scripts\Zenject.csproj">
+      <Project>{46f25a62-2e29-48cb-95f3-bdbcb0976ddc}</Project>
+      <Name>Zenject</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />

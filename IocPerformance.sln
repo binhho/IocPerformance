@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocPerformance", "IocPerformance\IocPerformance.csproj", "{F73089D4-651F-4008-9EEA-CDFCACE60EAD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9108A794-5959-40EB-BE60-A64E96418B6E}"
@@ -10,16 +12,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9108A7
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject", "..\Zenject\UnityProject\Assets\Zenject\Main\Scripts\Zenject.csproj", "{46F25A62-2E29-48CB-95F3-BDBCB0976DDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Not Unity Debug|Any CPU = Not Unity Debug|Any CPU
+		Not Unity Release|Any CPU = Not Unity Release|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F73089D4-651F-4008-9EEA-CDFCACE60EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F73089D4-651F-4008-9EEA-CDFCACE60EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73089D4-651F-4008-9EEA-CDFCACE60EAD}.Not Unity Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73089D4-651F-4008-9EEA-CDFCACE60EAD}.Not Unity Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73089D4-651F-4008-9EEA-CDFCACE60EAD}.Not Unity Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73089D4-651F-4008-9EEA-CDFCACE60EAD}.Not Unity Release|Any CPU.Build.0 = Release|Any CPU
 		{F73089D4-651F-4008-9EEA-CDFCACE60EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F73089D4-651F-4008-9EEA-CDFCACE60EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F25A62-2E29-48CB-95F3-BDBCB0976DDC}.Debug|Any CPU.ActiveCfg = Not Unity Debug|Any CPU
+		{46F25A62-2E29-48CB-95F3-BDBCB0976DDC}.Debug|Any CPU.Build.0 = Not Unity Debug|Any CPU
+		{46F25A62-2E29-48CB-95F3-BDBCB0976DDC}.Not Unity Debug|Any CPU.ActiveCfg = Not Unity Debug|Any CPU
+		{46F25A62-2E29-48CB-95F3-BDBCB0976DDC}.Not Unity Debug|Any CPU.Build.0 = Not Unity Debug|Any CPU
+		{46F25A62-2E29-48CB-95F3-BDBCB0976DDC}.Not Unity Release|Any CPU.ActiveCfg = Not Unity Release|Any CPU
+		{46F25A62-2E29-48CB-95F3-BDBCB0976DDC}.Not Unity Release|Any CPU.Build.0 = Not Unity Release|Any CPU
+		{46F25A62-2E29-48CB-95F3-BDBCB0976DDC}.Release|Any CPU.ActiveCfg = Not Unity Release|Any CPU
+		{46F25A62-2E29-48CB-95F3-BDBCB0976DDC}.Release|Any CPU.Build.0 = Not Unity Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
