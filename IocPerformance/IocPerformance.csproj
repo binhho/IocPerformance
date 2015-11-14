@@ -286,6 +286,9 @@
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="Zenject">
+      <HintPath>..\..\Zenject\AssemblyBuild\Bin\Not Unity Release\Zenject.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapters\AutofacContainerAdapter.cs" />
@@ -327,6 +330,7 @@
     </Compile>
     <Compile Include="Adapters\UnityContainerAdapter.cs" />
     <Compile Include="Adapters\WindsorContainerAdapter.cs" />
+    <Compile Include="Adapters\ZenjectContainerAdapter.cs" />
     <Compile Include="Benchmarks\Advanced\08_Conditional_Benchmark.cs" />
     <Compile Include="Benchmarks\Advanced\09_ChildContainer_Benchmark.cs" />
     <Compile Include="Benchmarks\Advanced\10_InterceptionWithProxy_Benchmark.cs" />
